@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">RssFeed</string>
-    <string name="title_item_detail">Item Detail</string>
+    <string name="app_name">CBC RssFeed</string>
+    <string name="title_item_detail">Details</string>
 </resources>

@@ -3,19 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp"
     android:baselineAligned="false"
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
-    tools:context="com.example.rssfeed.ItemListActivity">
-
-    <!--
-    This layout is a two-pane layout for the Items
-    master/detail flow.
-    
-    -->
+    tools:context=".view.activity.ItemListActivity">
 
     <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -26,8 +18,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         app:layoutManager="LinearLayoutManager"
-        tools:context="com.example.rssfeed.ItemListActivity"
-        tools:listitem="@layout/item_list_content" />
+        tools:context=".view.activity.ItemListActivity"
+        tools:listitem="@layout/item_rss" />
 
     <FrameLayout
         android:id="@+id/item_detail_container"
